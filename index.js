@@ -21,6 +21,8 @@ function currentLine(line) {
     return "The line is currently empty."
     }
     else {
-      for {let i=0; line.length > i
+      for {let i=0; line.length > i; i++) {
+        return 
+      }
     }
 }
