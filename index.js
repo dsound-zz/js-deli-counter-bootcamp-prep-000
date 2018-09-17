@@ -19,8 +19,9 @@ function nowServing(line) {
 function currentLine(line) {
  
       for (let i=0; line.length > i; i++) {
+        var nameAndNumbers = `${i+1}. ${line[i]}`
+        return `Currently serving $
         
-        return `The line is currently: ${[i + 1]}. ${line[i]}` } 
         
         if (line.length === 0) {
           return `The line is currently empty.`
