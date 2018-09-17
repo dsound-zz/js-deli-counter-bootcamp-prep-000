@@ -22,6 +22,6 @@ function currentLine(line) {
     }
     else {
       for (let i=0; line.length > i; i++) {
-        return `The line is currently: ${[i+1]}. ${line[i]}` } 
+        return `The line is currently: ${[i]}. ${line[i]}` } 
       }
     }
