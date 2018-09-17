@@ -14,6 +14,6 @@ function nowServing(line) {
     return "There is nobody waiting to be served!"
     }
     else {
-      return `${lineN}
+      return `${lineN}`
     }
 }
