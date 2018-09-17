@@ -2,7 +2,9 @@
 
 function takeANumber(line, name) {
  
-  var lineLength = line.push()
+  for (let i=0; line.length > i; i++) {
+    var lineLength = line[i - 1]
+  }
 
   
   return `Welcome, ${name}. You are number ${lineLength} in line.`
